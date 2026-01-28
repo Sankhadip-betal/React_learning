@@ -1,17 +1,16 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShoppingBasket, faTags } from "@fortawesome/free-solid-svg-icons";
 
-import React from 'react'
-import '../index.css';
+
 
 export default function Header() {
   return (
     <>
-    <header className="border-b border-gray-300 sticky top-0 z-30 bg-gray-100">
-      <div className="flex justify-between text-center max-w-[1125px] px-3 py-4">
+    <header className="border-b border-gray-300 sticky top-0 z-30 bg-gray-100 ">
+      <div className="flex justify-between text-center max-w-[1250px] px-8 py-3">
        <a href="/" className="text-center text-lg font-primary font-semibold text-purple-800 py-2">
           <FontAwesomeIcon icon={faTags} className="h-8 w-8" />
-          <span className="font-bold ">Eazy Stickers</span>
+          <span className="font-semibold ">Eazy Stickers</span>
         </a>
       
         <nav className='flex items-center py-2 z-10'>
